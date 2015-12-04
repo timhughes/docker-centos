@@ -1,4 +1,4 @@
-FROM timhughes/centos:7
+FROM timhughes/centos:centos7
 RUN yum -y install gcc openssl-devel libyaml-devel readline-devel zlib-devel patch curl
 RUN git clone https://github.com/sstephenson/ruby-build.git
 WORKDIR ruby-build
