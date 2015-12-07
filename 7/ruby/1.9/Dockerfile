@@ -1,5 +1,4 @@
-FROM timhughes/centos:centos7
-RUN yum -y install make gcc gcc-c++ openssl-devel libyaml-devel readline-devel zlib-devel patch curl && yum clean all
+FROM timhughes/centos:centos7_buildpack-deps
 RUN git clone https://github.com/sstephenson/ruby-build.git
 WORKDIR ruby-build
 RUN ./install.sh
