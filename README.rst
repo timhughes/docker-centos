@@ -3,7 +3,17 @@ docker-centos
 
 Centos base image with systemd added and some packages to allow testing with puppetlabs Beaker
 
-See https://hub.docker.com/_/centos/ for the finer details
+https://hub.docker.com/r/timhughes/centos/
+
+
+See https://hub.docker.com/_/centos/ for the CentOS details
+
+
+
+::
+
+    docker pull centos7_ruby1.9
+
 
 ::
 
