@@ -3,6 +3,8 @@ docker-centos
 
 Centos base image with systemd added and some packages to allow testing with puppetlabs Beaker
 
+See https://hub.docker.com/_/centos/ for the finer details
+
 ::
 
     .
