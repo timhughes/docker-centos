@@ -16,10 +16,13 @@ RUN yum -y install \
     file \
     gcc \
     gcc-c++ \
+    git \
+    hostname \
     ncurses-devel  \
     patch \
     readline-devel  \
-    sqlite-devel
+    sqlite-devel \
+    tar
 
 RUN	yum clean all
 
