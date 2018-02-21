@@ -12,7 +12,7 @@ See https://hub.docker.com/_/centos/ for the CentOS details
 
 ::
 
-    docker pull centos7_ruby1.9
+    docker pull timhughes/centos:centos7_ruby1.9
 
 
 ::
