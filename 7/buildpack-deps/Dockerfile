@@ -18,6 +18,7 @@ RUN yum -y install \
     readline-devel \
     sqlite-devel \
     tar \
+    tk-devel \
     zlib-devel
 
 RUN yum clean all
